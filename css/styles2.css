@@ -1,0 +1,78 @@
+html{
+    height: 69%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+    background-repeat: repeat;
+    color: black;
+}
+img{
+    display: block;
+    border: 6px groove black;
+    padding: 5px;
+    margin: auto;
+}
+a{
+    color: blue;
+}
+a:visited{
+    color: black;
+}
+li{
+    font-style: oblique;
+}
+li:hover{
+    font-size: 150%;
+    text-decoration: underline;
+    background-color: aliceblue;
+}
+.common{
+    position: absolute;
+}
+.nav{
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer{
+    position:fixed;
+    background-color: beige;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.gallery img{
+    width: 400px;
+    display: inline;
+}
+.page-content h1{
+    font-size: large;
+    color: black;
+}
+.favorite-list{
+    font-size: 20px;
+    color: black;
+    list-style-type: decimal;
+}
+.favorite-list ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.favorite-list{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
